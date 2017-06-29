@@ -14,6 +14,7 @@ h1 {
 a {
   color: white;
   text-decoration: none;
+  padding: 10px;
 }
 
 ul li {
@@ -61,11 +62,17 @@ p {
   color: white;
 }
 
-#footer {
-  display: inline-block;
-  float: left;
+#footer-wrapper {
+  display: block;
+  width: 100%;
   background-color: gray;
   font-family: Helvetica;
   font-size: 14px;
-  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+#footer-wrapper li {
+  display: inline;
 }
